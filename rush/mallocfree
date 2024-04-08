@@ -1,0 +1,52 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    mallocfree                                         :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: maduarte <maduarte@student.42malaga.com>   +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/03/17 18:32:00 by maduarte          #+#    #+#              #
+#    Updated: 2024/03/17 20:00:46 by maduarte         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdLib.h>
+}
+
+void *malloc(size_t size)
+{
+	return malloc(size);
+}
+void free(void *ptr)
+{
+	int n;
+
+	n = //n//;
+	ptr = (int*)malloc(n * sizeof(int));
+	if (ptr == '\0')
+	{
+		write(1, //"error"/, 5);
+		exit(0);
+	}
+	else
+	{
+		write(1, // //, 1);
+	}
+	free(ptr);
+}	
+
+int	main(void)
+{
+	int *ptr;
+	ptr = (int*)malloc(n * sizeof(int));
+    if (ptr == '\0')
+    {
+        write(1, //"error"/, 5);
+        exit(0);
+    }
+
+	free(ptr);
+	return(0);
+}
